@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Currículo</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .imagem__principal img {
+            width: 200px; /* Ajusta o tamanho da imagem principal */
+            height: auto;
+            border-radius: 50%; /* Torna a imagem circular (opcional) */
+            margin-bottom: 20px;
+        }
+
+        .apresentacao__links {
+            display: flex;
+            justify-content: center; /* Centraliza os links horizontalmente */
+            gap: 15px; /* Espaçamento entre os links */
+            margin-top: 20px;
+        }
+
+        .apresentacao__links__link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 15px;
+            font-size: 1rem;
+            text-decoration: none;
+            color: white;
+            background-color: #0073b1; /* Cor de fundo (pode ser alterada) */
+            border: 2px solid transparent;
+            border-radius: 10px; /* Borda arredondada */
+            transition: all 0.3s ease;
+        }
+
+        .apresentacao__links__link img {
+            width: 20px; /* Ajusta o tamanho do ícone */
+            height: 20px;
+            margin-right: 10px;
+        }
+
+        .apresentacao__links__link:hover {
+            background-color: #005582; /* Cor de fundo ao passar o mouse */
+            border-color: #ffffff; /* Borda ao passar o mouse */
+        }
+    </style>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+        </nav>
+    </header>
+
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">Rogério Lima de Oliveira</h1>
+            <p class="apresentacao__conteudo__texto">
+                Sou um dev Front-end iniciante e completando minha formação em HTML, CSS e JS pela Alura Cursos online de Tecnologia. Até o final do ano pretendo já estar atuando na área e me especializando cada vez mais.
+            </p>
+
+            <h2 class="apresentacao__formacao">Minhas formações:</h2>
+            <li class="apresentacao__formacao__conteudo">HTML e CSS: ambientes de desenvolvimento, estrutura de arquivos e tags</li>
+            <li class="apresentacao__formacao__conteudo">HTML e CSS: cabeçalho, footer e variáveis CSS</li>
+            <li class="apresentacao__formacao__conteudo">HTML e CSS: Classes, posicionamento e Flexbox</li>
+        </section>
+
+        <div class="imagem__principal">
+            <img class="imagem" src="assets/425786766_6812299428878512_596520219816930720_n.jpg" alt="Minha foto">
+
+            <div class="apresentacao__links">
+                <a class="apresentacao__links__link" href="https://www.instagram.com/rogerhkz/" target="_blank">
+                    <img src="assets/instagram.png" alt="Instagram">Instagram
+                </a>
+                <a class="apresentacao__links__link" href="https://github.com/hykazy" target="_blank">
+                    <img src="assets/github.png" alt="GitHub">GitHub
+                </a>
+                <a class="apresentacao__links__link" href="https://www.linkedin.com/in/rog%C3%A9rio-lima-b74a28145" target="_blank">
+                    <img src="assets/linkedin.png" alt="LinkedIn">LinkedIn
+                </a>
+                <a class="apresentacao__links__link" href="https://x.com/hykazy98" target="_blank">
+                    <img src="assets/twitter.png" alt="Twitter">Twitter
+                </a>
+            </div>
+        </div>
+
+        <!-- Links das redes sociais abaixo da imagem -->
+       
+    </main>
+
+    <footer class="rodape">
+        <p>Desenvolvido por Rogério Lima</p>
+    </footer>
+</body>
+</html>
